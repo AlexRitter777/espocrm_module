@@ -1,0 +1,12 @@
+[
+
+  {
+    "route": "/find-contacts",
+    "method": "get",
+    "params": {
+      "controller": "FindContactsController",
+      "action": "FindContacts"
+    },
+    "noAuth": false
+  }
+]

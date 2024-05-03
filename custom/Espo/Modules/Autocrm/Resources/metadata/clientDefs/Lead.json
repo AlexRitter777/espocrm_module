@@ -1,0 +1,14 @@
+{
+  "detailActionList": [
+    "__APPEND__",
+    {
+      "label": "Find contacts",
+      "name": "find_contacts",
+      "acl": "edit",
+      "handler": "autocrm:find-contacts-handler",
+      "initFunction": "initTest",
+      "checkVisibilityFunction": "isTestVisible",
+      "actionFunction": "findContacts"
+    }
+  ]
+}
